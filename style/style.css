@@ -1,0 +1,55 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  background-size: 100% 1.2em;
+  background-image: -webkit-linear-gradient(0deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px), -webkit-linear-gradient(#eee 0.05em, transparent 0.05em);
+  background-image: -moz-linear-gradient(0deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px), -moz-linear-gradient(#eee 0.05em, transparent 0.05em);
+  background-image: -ms-linear-gradient(0deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px), -ms-linear-gradient(#eee 0.05em, transparent 0.05em);
+  background-image: -o-linear-gradient(0deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px), -o-linear-gradient(#eee 0.05em, transparent 0.05em);
+  background-image: linear-gradient(0deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px), linear-gradient(#eee 0.05em, transparent 0.05em);
+  -pie-background: linear-gradient(0deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px) 0 0/100% 1.2em, linear-gradient(#eee 0.05em, transparent 0.05em) 0 0/100% 1.2em #fff;
+  behavior: url(/PIE.htc);
+}
+
+h1 {
+  width: 100vw;
+  text-align: center;
+  margin-top: 2em;
+  text-transform: uppercase;
+  color: #2f2f2f;
+}
+
+main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-flow: column;
+  height: 300vh;
+  margin-top: 50vh;
+}
+main div.scrollblock {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0.11), 0 4px 4px rgba(0, 0, 0, 0.11), 0 8px 8px rgba(0, 0, 0, 0.11), 0 16px 16px rgba(0, 0, 0, 0.11), 0 32px 32px rgba(0, 0, 0, 0.11);
+}
+main div.scrollblock h2 {
+  font-size: 4em;
+  color: #ffffff;
+}
+main div.B {
+  background-color: green;
+}
+main div.C {
+  background-color: blue;
+}
+
+/*# sourceMappingURL=style.css.map */
